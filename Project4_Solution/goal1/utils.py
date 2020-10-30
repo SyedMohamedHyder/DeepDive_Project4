@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 # All imports go here
 import csv
 import os
@@ -33,3 +31,8 @@ def convert_datatype(zipped_data):
         'model_year' : int
     }
     return (datatype_map.get(datatype, str)(data) for data, datatype in zipped_data)
+
+__all__ = ['get_header',
+           'create_namedtuple',
+           'parse_data',
+           'convert_datatype']
