@@ -1,6 +1,6 @@
 # All imports go here
-import goal1.converter as converter
 import os
+import goal1.converter as converter
 
 # Base directory of this module
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

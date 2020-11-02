@@ -15,3 +15,7 @@ def get_unstale_records(*files, last_stale_date=datetime(2017, 3, 1)):
 #                              goal1.vehicles_file)
 
 # print(sum(1 for _ in records))
+
+# Things to be exported
+
+__all__ = ['get_unstale_records']
